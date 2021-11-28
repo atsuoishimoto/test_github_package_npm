@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/atsuoishimoto/test_npm.git"
   },
-  "author": "",
+  "publishConfig": {
+     "@atsuoishimoto:registry": "https://npm.pkg.github.com"
+  },
+  "nuthor": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/atsuoishimoto/test_npm/issues"
